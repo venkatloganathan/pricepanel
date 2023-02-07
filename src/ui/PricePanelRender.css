@@ -1,0 +1,27 @@
+.price-panel-render {
+  margin-right: 10px;
+  border-style: outset;
+  position: relative;
+  width: 266px;
+  height: 150px;
+}
+
+.price-panel-render_header {
+  height: 40px;
+  background-color: #789;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.price-panel-render_quote-panel {
+  position: relative;
+}
+
+.price-panel-render_last-updated {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}

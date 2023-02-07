@@ -1,0 +1,66 @@
+.price-panel {
+    position: absolute;
+    width: 117px;
+    height: 78px;
+}
+
+.price-panel.left {
+    margin-left: 10px;
+}
+
+.price-panel.right {
+    right: 0;
+    padding-left: 10px;
+}
+
+.price-panel___price-display-container {
+    will-change: transform;
+    position: absolute;
+    background-color: darkgray;
+    width: 117px;
+    height: 54px;
+    top: 25px;
+    left: 0;
+    cursor: default;
+}
+
+.price-panel___price-display {
+    will-change: transform;
+    position: absolute;
+    font-size: 25px;
+    left: 5px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.price-panel___price-display-spread {
+    will-change: transform;
+    position: absolute;
+    font-size: 15px;
+    right: 5px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.price-panel___price-display-spread.up {
+    color: green;
+}
+
+.price-panel___price-display-spread.down {
+    color: red;
+}
+
+.price-panel___header {
+    position: absolute;
+    height: 24px;
+    cursor: default;
+}
+
+.price-panel___header.left {
+    left: 0;
+}
+
+.price-panel___header.right {
+    right: 10px;
+}
+
