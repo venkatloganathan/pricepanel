@@ -22,5 +22,13 @@ subscription
 
 CSS needs refactoring
 
-To add ID in the header
+### Todo
+
+Add ID in the header
+
+Get Product list from web socket
+
+Replace date with unix time stamp
+
+Make websocket client to support multiple end points
 
