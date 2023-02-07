@@ -10,7 +10,7 @@ Server is written in Node, websocket server runs on port 8000
 
 Price is unsubscribed by default. Websockets streams data only when subscribed.
 Price Icon movement displays only for UP and DOWN, it won't display icon if the direction
-is similar to last price.
+is similar to last price direction.
 
 ### Known issues
 
